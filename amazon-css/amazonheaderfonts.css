@@ -1,0 +1,31 @@
+.Delivery-info,.adress-account,.return-info{
+    font-family: roboto,Arial;
+    color: rgb(209, 208, 208);
+    font-size: 12px;
+
+}.Delivery-info-location,.language,.account-info,.order-info,.cart-info{
+    font-family: roboto,Arial;
+    color: white;
+    font-size: 14px;
+    
+    font-weight: 600;
+}.Recommendation{
+    font-family: roboto ,Arial;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 19px;
+    margin-top: 15px;
+}.Recommendation-x{
+    font-family: roboto ,Arial;
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 19px;
+    
+}.x-info{
+    font-family: roboto;
+    font-size: 14px;
+    margin-top: 7px;
+
+}

@@ -1,0 +1,247 @@
+.amazonheader {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+    background-color: darkblue;
+    height:60px;
+    border: solid;
+    align-items: center;
+    background-color: #0F1111;
+    position: fixed;
+    left:0;
+    right:0;
+    z-index: 100;
+}.first-section{
+    display: flex;
+}
+.front-first-section{
+    width: 135px;
+    position: relative;
+    align-items: center; 
+    height: 53px;
+    margin: 0 10px 0 12px;
+}
+.amazon-logo{ 
+    display: flex;
+    position: relative;
+    height: 35px;
+    padding-left: 6px;
+    padding-top: 13px;
+}.dot-in{
+    position: absolute;
+    color: white;
+    font-family: roboto;
+    top:10px;
+    right:15px;
+}
+
+.front-second-section{
+    display: flex;
+    height: 53px;
+    width: 160px;
+    align-items: center;
+    margin-left: -1px;
+    margin-right: 1px;
+}.amazon-location-icon{
+    height:18px;
+    padding: 7px 5px 0 5px;
+}
+.middle-section{
+    display: flex;
+    background-color: #0F1111;
+    flex: 1;
+    height: 66px;
+    margin-left: 10px;
+    align-items: center;
+
+}.All-button{
+    display: flex;
+    padding: 13px 30px 13px 10px;
+    margin-left: 13px;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border: none;
+    
+
+}.all-info{
+    display: flex;
+    background-color: white;
+    width: 200px;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    height: 280px;
+    border-radius: 6px;
+    align-items: start;
+    flex-direction: column;
+    overflow-x: auto;
+    padding-top: 12px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    
+
+}.All-button:hover .all-info{
+    opacity: 1;
+}
+.all-info span{
+    margin-left: 12px;
+    line-height: 20px;
+}
+.All-button:hover{
+    cursor: pointer;
+    background-color: rgb(218, 218, 218);
+}.arrow{
+       
+    position:absolute;
+    top:  10px;
+    right: 3px;
+    padding-right: 7px;
+}
+.search-bar{
+    flex: 1;
+    padding: 13px 0 13px 0px;  
+    
+    border: none;
+    
+    
+}::placeholder{
+    font-size: 15px;
+    font-family: roboto ,Arial;
+    font-weight: 350;
+    padding-left: 8px;
+
+
+}.search-icon{
+
+    height: 23px;
+    padding-top: 2px;
+    
+}.search-button{
+    background-color: rgb(253, 207, 80);
+    height: 40px;
+    width: 50px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border: none;
+
+    
+    
+}.search-button:hover{
+    cursor: pointer;
+    background-color: rgb(241, 170, 16);
+    
+
+}
+.end-section{
+    display: flex;
+    flex-direction: row;
+   flex-shrink: 0;
+
+}
+.end-first-section{
+    
+    margin: 0 10px 0 20px ;
+    display: flex;
+    height: 53px;
+    flex-direction: row;
+   align-items: center;
+    width: 75px
+    
+    
+    
+
+    
+    
+}.language-icon{
+    padding-left: 13px;
+    padding-top: 8px;
+    
+    height: 15px;
+    
+
+}.language{
+    padding-top: 9px;
+    padding-left: 3px;
+
+}
+.arrow-language,.arrow-account{
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 3px;
+    color:grey;
+}.arrow-language:hover,.arrow-account:hover,.orders:hover{
+    cursor: pointer;
+}
+.end-second-section{
+    display:flex;
+   
+    align-items: center;
+    width: 130px;
+    height: 53px;
+    margin-right: 10px;
+   
+   
+
+}.account{
+    padding-left: 8px;
+}
+.end-third-section{
+    display: flex;
+    align-items: center;
+    height: 53px;
+    width: 75px;
+    margin-right: 10px;
+    
+    
+   
+    
+}.orders{
+    padding-left: 8px;
+}
+.end-fourth-section{
+    display: flex;
+   margin-right: 20px;
+    align-items: center;
+    height: 53px;
+     width: 85px;
+     position: relative;
+     
+}.cart-icon{
+    height: 40px;
+    padding-left: 8px;
+    position: relative;
+    
+
+   
+}.cart-info{
+    position: absolute;
+    left:50px;
+    bottom: 10px;
+    
+}
+
+.front-first-section,
+.front-second-section,
+.end-first-section,
+.end-second-section,
+.end-third-section,
+.end-fourth-section{
+    
+    border: 0.5px solid transparent;
+   
+    border-radius: 6px;
+}.front-first-section:hover,
+.front-second-section:hover,
+.end-first-section:hover,
+.end-second-section:hover,
+.end-third-section:hover,
+.end-fourth-section:hover{
+    
+    border-color: white;
+    cursor: pointer;
+   
+ 
+}
